@@ -1,0 +1,23 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 10em;  /*ten times the size*/
+    font-family: Helvetica;
+}
+
+#button{
+    text-align: center;
+    
+}
+.buttons{
+    padding: 10px 20px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 5px;
+    cursor: pointer; /* cursor changes to pointer when hovering over a button */
+    transform: background-color 0.25s;
+
+
+}
+.buttons:hover{
+    background-color: rgb(255, 0, 0);
+}
